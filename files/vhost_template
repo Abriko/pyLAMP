@@ -1,0 +1,19 @@
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    ServerName <ServerName>
+    ServerAlias #Alias
+    DocumentRoot <siteroot>/public_html
+
+    <Directory <siteroot>/public_html>
+        Options -Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+    </Directory>
+
+    LogLevel warn
+    ErrorLog <siteroot>/logs/<ServerName>-error.log
+
+    CustomLog <siteroot>/logs/<ServerName>-access.log combined
+
+</VirtualHost>

@@ -1,0 +1,2 @@
+auth    required pam_mysql.so user=lamp passwd=<passwd> host=localhost db=lamp table=lamp__ftp usercolumn=username passwdcolumn=password crypt=2
+account required pam_mysql.so user=lamp passwd=<passwd> host=localhost db=lamp table=lamp__ftp usercolumn=username passwdcolumn=password crypt=2
