@@ -7,7 +7,7 @@ pyLAMP is a simple Apache MySQL PHP runtime environment.
 You can using pyLAMP easy installation and configuration a complex server runtime environment.
 
 [中文说明](http://lab.hupo.me/lamp-doc/)
-[其他说明]（http://blog.hupo.me/2014/pylamp-linux-apache-mysql-php-%E4%B8%80%E9%94%AE%E7%8E%AF%E5%A2%83%E5%8F%91%E5%B8%83/）
+[其他说明](http://blog.hupo.me/2014/pylamp-linux-apache-mysql-php-%E4%B8%80%E9%94%AE%E7%8E%AF%E5%A2%83%E5%8F%91%E5%B8%83/)
 
 Installation
 ------------
